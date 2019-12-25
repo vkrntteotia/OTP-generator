@@ -1,10 +1,18 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
+  production: false,
+  config : {
+          apiKey: "AIzaSyDYmMwj7FagS_5PvemlYC2Yk5wuYUub5qk",
+          authDomain: "otp-generator-4b524.firebaseapp.com",
+          databaseURL: "https://otp-generator-4b524.firebaseio.com",
+          projectId: "otp-generator-4b524",
+          storageBucket: "otp-generator-4b524.appspot.com"
+  }
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file
